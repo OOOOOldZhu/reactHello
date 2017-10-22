@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <style type="text/css">
+        #tab { overflow:hidden; width:400px; height:250px; position:relative; float:left;}
+        #tab>img:not(:first-child){ display:none; }
+
+    </style>
+    <script>
+        window.onload = function(){
+
+            var images = document.getElementsByTagName('img');
+            var pos = 0;
+            var len = images.length;
+
+            setInterval(function(){
+
+                images[pos].style.display = 'none';
+                pos = ++pos == len ? 0 : pos;
+                images[pos].style.display = 'inline';
+
+            },3000);
+
+        };
+    </script>
+
+</head>
+
+<body>
+<div id="tab">
+    <img src="http://images.rednet.cn/ArticleImage/2016/07/15/20161039492816424.jpg" width="400" height="250"/>
+    <img src="http://lehehetv.oss-cn-shanghai.aliyuncs.com/uploads/allimg/161109/0_110Z05AE953.jpg" width="400" height="250"/>
+    <img src="http://pic.baike.soso.com/ugc/baikepic2/19788/ori-20170106095717-1580128879.jpg/0" width="400" height="250"/>
+</div>
+</body>
+</html>
