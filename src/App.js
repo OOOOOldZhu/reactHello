@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import './styles/App.css';
-import './component/lunbo/lunbocss.css';
 import Header from './study/Header'
 import { Input } from 'antd';
-import lunboComponent from './component/lunbo/lunboComponent.js';
+import LunboComponent from './component/lunbo/lunboComponent';
 class App extends Component {
 
     render() {
@@ -11,9 +10,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Header/>
-                <lunboComponent
-                    number={4} className='content' interval={4000}  >
-                </lunboComponent>
+                <LunboComponent  />
             </div>
         );
     }

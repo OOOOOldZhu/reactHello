@@ -5,7 +5,7 @@ class Header extends Component {
 
     render() {
         return (
-            <div><h2>藏精阁官网</h2></div>
+            <div><h2>朱海文的官网</h2></div>
         );
     }
 }
