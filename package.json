@@ -1,11 +1,15 @@
 {
-  "name": "helloworld",
+  "name": "myweb_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "antd": "^2.12.2",
+    "fetch": "^1.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-mixin": "^2.0.2",
+    "react-responsive": "^4.1.0",
+    "react-router": "^4.2.0",
     "react-scripts": "1.0.10"
   },
   "scripts": {
@@ -13,5 +17,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.21.0",
+    //"webpack": "^4.6.0",
+    //"webpack-dev-server": "^3.1.3"
   }
 }

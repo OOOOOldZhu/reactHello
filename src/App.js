@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './styles/App.css';
 import Header from './study/Header'
 import { Input } from 'antd';
 import LunboComponent from './component/lunbo/lunboComponent';
-class App extends Component {
+class App extends React.Component {
 
     render() {
         const Search = Input.Search;
